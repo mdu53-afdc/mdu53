@@ -50,6 +50,80 @@
 //----เริ่ม 671029--- shareTargetPicker---------
 //----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
 
+         if(j5 === "mdu53-681209-2"){
+             liff.shareTargetPicker([
+               
+//-----ส่วนหัวข้อflex-------
+  {
+  "type": "flex",
+  "altText": "ข่าว นพค.53 สนภ.5 นทพ.",
+  "contents":
+//-----เริ่มโค้ตflexตรงนี้-------
+{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://lh3.googleusercontent.com/d/1c1u2_7IySOwPNkwJp1gTu_RSaGNVnUyH",
+    "size": "full",
+    "aspectRatio": "16:9",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://line.me/"
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "แชร์ภาพนี้",
+          "uri": "https://liff.line.me/2006566280-W11v7wlJ?refer=mdu53-681209-2"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
+}
+//-----ปิดโค้ตflexตรงนี้-------
+               
+    ])
+.then(function () {
+
+Swal.fire({
+  position: 'top-center',
+  icon: 'success',
+  title: 'ส่ง เรียบ ร้อย',
+  showConfirmButton: false,
+  timer: 1500,
+            onClose: () => {
+              liff.closeWindow();
+            }
+});
+
+    })
+}
+//----จบ 670605 shareTargetPicker---------
+//----จบ Project ----------
+           //----เริ่ม Project ---------- 
+//----เริ่ม 671029--- shareTargetPicker---------
+//----เริ่ม 671029--- shareTargetPicker---------
+//----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
+
          if(j5 === "mdu53-681209"){
              liff.shareTargetPicker([
                
