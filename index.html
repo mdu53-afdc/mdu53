@@ -51,6 +51,70 @@
 //----เริ่ม 671029--- shareTargetPicker---------
 //----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
 
+         if(j5 === "welcomewedding"){
+             liff.shareTargetPicker([
+               
+//-----ส่วนหัวข้อflex-------
+  {
+  "type": "flex",
+  "altText": "welcome to wedding",
+  "contents":
+//-----เริ่มโค้ตflexตรงนี้-------
+{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://lh3.googleusercontent.com/d/1FGjDa6dwf4dV0Xhp34LLo36gsAu-eMCc",
+    "aspectRatio": "1:1.6",
+    "aspectMode": "cover",
+    "size": "full"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "คลิกเพื่อแชร์",
+          "uri": "https://liff.line.me/2006566280-W11v7wlJ?refer=welcomewedding"
+        },
+        "style": "primary",
+        "scaling": true
+      }
+    ],
+    "flex": 0
+  }
+}
+}
+//-----ปิดโค้ตflexตรงนี้-------
+               
+    ])
+.then(function () {
+
+Swal.fire({
+  position: 'top-center',
+  icon: 'success',
+  title: 'ส่ง เรียบ ร้อย',
+  showConfirmButton: false,
+  timer: 1500,
+            onClose: () => {
+              liff.closeWindow();
+            }
+});
+
+    })
+}
+//----จบ 670605 shareTargetPicker---------
+//----จบ Project ----------
+           //----เริ่ม Project ---------- 
+//----เริ่ม 671029--- shareTargetPicker---------
+//----เริ่ม 671029--- shareTargetPicker---------
+//----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
+
          if(j5 === "weddingtop"){
              liff.shareTargetPicker([
                
