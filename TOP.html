@@ -21,7 +21,7 @@
         window.onload = function(e) {
           liff.init(
             {
-              liffId: "2006566280-W11v7wlJ"
+              liffId: "2008684653-UVwgPBCx"
             },
             function() {
               if (liff.isLoggedIn()) {
@@ -46,6 +46,65 @@
          function dolink(){
             var j5 = getParameterByName("refer")
 //----เริ่ม Project ---------- 
+//----เริ่ม 671029--- shareTargetPicker---------
+//----เริ่ม 671029--- shareTargetPicker---------
+//----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
+
+         if(j5 === "top"){
+             liff.shareTargetPicker([
+               
+//-----ส่วนหัวข้อflex-------
+  {
+  "type": "flex",
+  "altText": "𝒲𝑒𝓁𝒸𝑜𝓂𝑒 𝓉𝑜 𝒲𝑒𝒹𝒹𝒾𝓃𝑔",
+  "contents":
+//-----เริ่มโค้ตflexตรงนี้-------
+{
+  "type": "bubble",
+  "size": "giga",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://lh3.googleusercontent.com/d/1FGjDa6dwf4dV0Xhp34LLo36gsAu-eMCc",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "1:1.5",
+        "gravity": "center",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "https://liff.line.me/2008684653-UVwgPBCx?refer=top"
+        }
+      }
+    ],
+    "paddingAll": "0px"
+  }
+}
+}
+//-----ปิดโค้ตflexตรงนี้-------
+               
+    ])
+.then(function () {
+
+Swal.fire({
+  position: 'top-center',
+  icon: 'success',
+  title: 'ส่ง เรียบ ร้อย',
+  showConfirmButton: false,
+  timer: 1500,
+            onClose: () => {
+              liff.closeWindow();
+            }
+});
+
+    })
+}
+//----จบ 670605 shareTargetPicker---------
+//----จบ Project ----------
+           //----เริ่ม Project ---------- 
 //----เริ่ม 671029--- shareTargetPicker---------
 //----เริ่ม 671029--- shareTargetPicker---------
 //----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
