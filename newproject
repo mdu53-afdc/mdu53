@@ -3,13 +3,13 @@
 //----เริ่ม 671029--- shareTargetPicker---------
 //----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
 
-         if(j5 === "rdo5-680312"){
+         if(j5 === "mdu53-680312"){
              liff.shareTargetPicker([
                
 //-----ส่วนหัวข้อflex-------
   {
   "type": "flex",
-  "altText": "ข่าว สนภ.5 นทพ.",
+  "altText": "ข่าว นพค.53 สนภ.5 นทพ.",
   "contents":
 //-----เริ่มโค้ตflexตรงนี้-------
 
