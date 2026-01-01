@@ -46,6 +46,57 @@
          function dolink(){
             var j5 = getParameterByName("refer")
 
+             //----เริ่ม Project ---------- 
+//----เริ่ม 671029--- shareTargetPicker---------
+//----เริ่ม 671029--- shareTargetPicker---------
+//----- https://liff.line.me/2006566280-W11v7wlJ?refer=671216---                        
+
+         if(j5 === "happynewyear2026"){
+             liff.shareTargetPicker([
+               
+//-----ส่วนหัวข้อflex-------
+  {
+  "type": "flex",
+  "altText": "happynewyear",
+  "contents":
+//-----เริ่มโค้ตflexตรงนี้-------
+{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://lh3.googleusercontent.com/d/1G-VVuGd2XL9S3r44YvGryo_qg-x0lKLW",
+    "aspectMode": "cover",
+    "size": "full",
+    "aspectRatio": "9:12",
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "https://liff.line.me/2008804883-lUrFPDWp?refer=happynewyear2026"
+    }
+  }
+}
+}
+//-----ปิดโค้ตflexตรงนี้-------
+               
+    ])
+.then(function () {
+
+Swal.fire({
+  position: 'top-center',
+  icon: 'success',
+  title: 'ส่ง เรียบ ร้อย',
+  showConfirmButton: false,
+  timer: 1500,
+            onClose: () => {
+              liff.closeWindow();
+            }
+});
+
+    })
+}
+//----จบ 670605 shareTargetPicker---------
+//----จบ Project ----------
            //----เริ่ม Project ---------- 
            //----เริ่ม Project ---------- 
 //----เริ่ม 671029--- shareTargetPicker---------
